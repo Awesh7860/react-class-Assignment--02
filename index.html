@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<style>
+    a{
+        margin-right: 1rem;
+    }
+</style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script>
+        let div=React.createElement('div',{className:"maindiv"},
+          [
+            React.createElement('h1',null,"Awesh Ahamad Khan"),
+            React.createElement('p',null,"Software Developer,Intern At Geekster"),
+            React.createElement('a',{href:"https://www.linkedin.com/in/awesh-ahamad-khan-3594431b7/"},"Linkedin"),
+            React.createElement('a',{href:"https://github.com/Awesh7860"},"Github"),
+            React.createElement('hr',null,null),
+            React.createElement('h2',null,"Experince"),
+            React.createElement('h3',null,"Intern At Geekster"),
+            React.createElement('p',null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis temporibus cum perferendis quo optio culpa nobis soluta. Facilis cumque nam voluptatibus, praesentium necessitatibus itaque impedit vel quidem dicta amet a officia quasi alias animi nemo molestias iure fugiat iusto optio eveniet! Soluta quam magni ea totam suscipit quos error quas in ipsa dignissimos facilis adipisci, provident eaque nemo natus ut, quisquam ipsum nulla culpa velit inventore fuga similique! In facere possimus vero consectetur accusantium debitis sed, molestias sit veritatis! Ipsum dolore explicabo fuga, corporis ut autem ducimus soluta libero laudantium atque quisquam sunt corrupti labore, illum deleniti, totam illo?"),
+            React.createElement('hr',null,null),
+            React.createElement('h2',null,"Skills"),
+            React.createElement('ul',null,[
+            React.createElement('li',null,"Java"),
+            React.createElement('li',null,"JavaScript"),
+            React.createElement('li',null,"Git"),
+            React.createElement('li',null,"Mysql"),
+            React.createElement('li',null,"Css")
+            ]),
+            React.createElement('hr',null,null),
+             React.createElement('h2',null,"Hobbies"),
+            React.createElement('ol',null,[
+            React.createElement('li',null,"Traveling"),
+            React.createElement('li',null,"Coding"),
+            React.createElement('li',null,"Badminton"),
+            React.createElement('li',null,"Biking"),
+            React.createElement('li',null,"Cricket")
+            ]),
+            React.createElement('hr',null,null)
+          ]
+        )
+        ReactDOM.render(div,document.getElementById("root"))
+    </script>
+</body>
+</html>
